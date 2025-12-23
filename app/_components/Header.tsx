@@ -7,10 +7,7 @@ export default function Header() {
       <div className="space-y-4">
         <div className="space-y-2">
           <h1 className="text-3xl">Kevin Rebakure</h1>
-          <p>
-            Software developer. Sharing what I&apos;m learning and
-            building
-          </p>
+          <p>Software developer. Sharing what I&apos;m learning and building</p>
         </div>
         <p className="font-semibold">Let&apos;s connect</p>
         <div className="flex gap-2">
@@ -20,6 +17,7 @@ export default function Header() {
               {i < links.length - 1 && <span> |</span>}
             </Link>
           ))}
+          <p> | kevinrebakure@gmail.com</p>
         </div>
       </div>
 
