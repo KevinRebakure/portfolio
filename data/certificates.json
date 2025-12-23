@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Certificate of graduation from TheGym",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=for%20MySQL%20database.-,Certificate%20of%20graduation%20from%20TheGym,-Certificate%20of%20graduation",
+    "description": "A 6 months training focusing on frontend and backend development with TypeScript and JavaScript with additional trainings on professional soft skills",
+    "institution_name": "The Gym",
+    "instituation_link": "https://www.the-gym.rw/",
+    "tags": ["Bootcamp", "TypeScript", "JavaScript", "React", "Nest.js"]
+  },
+  {
+    "name": "Mastering Next.js 13 with TypeScript",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=development%20trainee%20program-,Mastering%20Next.js%2013%20with%20TypeScript,-Mastering%20Next.js",
+    "description": "",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Next.js", "TypeScript"]
+  },
+  {
+    "name": "Next.js Projects: Build an Issue Tracker",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=users%2C%20and%20permissions.-,Next.js%20Projects%3A%20Build%20an%20Issue%20Tracker,-Next.js%20Projects",
+    "description": "Built an issue tracker with Next.js 13",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Next.js", "TypeScript"]
+  },
+  {
+    "name": "The Ultimate Docker Course",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=improving%20code%20organization.-,The%20Ultimate%20Docker%20Course,-The%20Ultimate%20Docker",
+    "description": "",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Docker", "Linux"]
+  },
+  {
+    "name": "Build AI-Powered Apps",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=abstraction%20and%20polymorphism.-,Build%20AI%2DPowered%20Apps,-Build%20AI%2DPowered",
+    "description": "Built a simple chatbot and review summarizer with Gemini API. The course uses OpenAI API.",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "AI", "TypeScript", "React", "Gemini AI"]
+  },
+  {
+    "name": "Spring Boot: Mastering REST API Development",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=The%20executive%20framework-,Spring%20Boot%3A%20Mastering%20REST%20API%20Development,-Spring%20Boot%3A%20Mastering",
+    "description": "Building REST APIs with Spring Boot",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Java", "Spring Boot"]
+  },
+  {
+    "name": "Spring Boot: Mastering the Fundamentals",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=Payment%20Processing%20%2D%20Deployment-,Spring%20Boot%3A%20Mastering%20the%20Fundamentals,-Spring%20Boot%3A%20Mastering",
+    "description": "Learning the fundamentals of Spring and Java Data JPA",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Java", "Spring Boot"]
+  },
+  {
+    "name": "Ultimate Java Part 1: Fundamentals",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=Spring%20Data%20JPA-,Ultimate%20Java%20Part%201%3A%20Fundamentals,-Ultimate%20Java%20Part",
+    "description": "Java fundamentals",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Java"]
+  },
+  {
+    "name": "Ultimate Java Part 2: Object-Oriented Programming",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=mortgage%20calculator%20app.-,Ultimate%20Java%20Part%202%3A%20Object%2DOriented%20Programming,-Ultimate%20Java%20Part",
+    "description": "Learning OOP principles in Java",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Java"]
+  },
+  {
+    "name": "Ultimate Java Part 3: Advanced Topics",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=Licenses%20%26%20certifications-,Ultimate%20Java%20Part%203%3A%20Advanced%20Topics,-Ultimate%20Java%20Part",
+    "description": "Learning about advanced Java concepts",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "tags": ["Course", "Java"]
+  }
+]
