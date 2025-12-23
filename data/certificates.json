@@ -13,7 +13,7 @@
     "description": "",
     "institution_name": "Code With Mosh",
     "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
-    "tags": ["Next.js", "TypeScript"]
+    "tags": ["Course", "Next.js", "TypeScript"]
   },
   {
     "name": "Next.js Projects: Build an Issue Tracker",
@@ -21,7 +21,7 @@
     "description": "Built an issue tracker with Next.js 13",
     "institution_name": "Code With Mosh",
     "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
-    "tags": ["Next.js", "TypeScript"]
+    "tags": ["Course", "Next.js", "TypeScript"]
   },
   {
     "name": "The Ultimate Docker Course",
