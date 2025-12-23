@@ -6,7 +6,7 @@ export default function Certificates() {
     <div className="space-y-8">
       {certificates.map((certificate, i) => (
         <div key={certificate.name} className="space-y-1">
-          <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row sm:justify-between">
             <Link
               className="font-semibold hover:underline"
               href={certificate.certificate_link}
@@ -19,7 +19,7 @@ export default function Certificates() {
               className="hover:underline"
               target="_blank"
             >
-              {certificate.institution_name}
+              Issued by: {certificate.institution_name}
             </Link>
           </div>
 
