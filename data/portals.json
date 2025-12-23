@@ -16,7 +16,12 @@
   },
   {
     "name": "Instagram",
-    "username":"kevinrebakure",
+    "username": "kevinrebakure",
     "link": "https://www.instagram.com/kevinrebakure/"
+  },
+  {
+    "name": "kevinrebakure@gmail.com",
+    "username": "",
+    "link": ""
   }
 ]
