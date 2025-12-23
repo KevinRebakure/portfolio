@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <div className="space-y-4">
-      <div className="space-y-4 grid grid-cols-3 gap-4">
+      <div className="space-y-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {projects.map((project) => (
           <Card key={project.name}>
             <CardHeader>
