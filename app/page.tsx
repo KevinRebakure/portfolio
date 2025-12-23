@@ -9,6 +9,9 @@ import Header from "./_components/Header";
 import Projects from "./_components/Projects";
 import Skills from "./_components/Skills";
 
+import certificates from "@/data/certificates.json";
+import projects from "@/data/projects.json";
+
 export default function Home() {
   return (
     <div className="p-6 md:p-16 space-y-16">
@@ -27,14 +30,14 @@ export default function Home() {
         </AccordionItem>
 
         <AccordionItem value="projects">
-          <AccordionTrigger>Projects</AccordionTrigger>
+          <AccordionTrigger>Projects ({projects.length})</AccordionTrigger>
           <AccordionContent>
             <Projects />
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="certificates">
-          <AccordionTrigger>Certificates</AccordionTrigger>
+          <AccordionTrigger>Certificates ({certificates.length})</AccordionTrigger>
           <AccordionContent>
             <Certificates />
           </AccordionContent>
