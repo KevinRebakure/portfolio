@@ -1,12 +1,26 @@
 export default function Skills() {
   return (
-    <div className="space-y-1">
-      <p className="font-semibold mb-4">Main tools for my daily chores</p>
-      <p>Languages: Java, TypeScript, JavaScript, Python</p>
-      <p>Frameworks: Spring Boot, Next.js, React, Nest.js, Express.js</p>
-      <p>Team & DevOps: Docker, Git</p>
-      <p>Other favorites: Supabase, VS Code, IntelliJ IDEA</p>
-      <p>Can&apos;t survive without: Notion, Spotify</p>
+    <div className="space-y-3">
+      <p>
+        <span className="font-semibold">Languages: </span>Java, TypeScript,
+        JavaScript, Python
+      </p>
+      <p>
+        <span className="font-semibold">Frameworks: </span>Spring Boot, Next.js,
+        React, Nest.js, Express.js
+      </p>
+      <p>
+        <span className="font-semibold">Team & DevOps: </span>Docker, Git
+      </p>
+      <p>
+        <span className="font-semibold">Other favorites: </span>
+        Supabase, VS Code, IntelliJ IDEA
+      </p>
+      <p>
+        <span className="font-semibold">
+          Can&apos;t imagine working without: 
+        </span> Notion, Spotify
+      </p>
     </div>
   );
 }

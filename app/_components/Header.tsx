@@ -1,15 +1,14 @@
 import links from "@/data/portals.json";
 import Link from "next/link";
-import Skills from "./Skills";
 
 export default function Header() {
   return (
     <div className="space-y-6">
       <div className="space-y-4">
         <div className="space-y-2">
-          <h1 className="text-4xl">Kevin Rebakure</h1>
+          <h1 className="text-3xl">Kevin Rebakure</h1>
           <p>
-            I&apos;m a software developer. Sharing what I&apos;m learning and
+            Software developer. Sharing what I&apos;m learning and
             building
           </p>
         </div>
@@ -28,8 +27,6 @@ export default function Header() {
         <p className="font-semibold">Currently learning</p>
         <p>Since October 2025: Java, Systems Design</p>
       </div>
-
-      <Skills />
     </div>
   );
 }

@@ -7,35 +7,38 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import projects from "@/data/projects.json";
+import { ToolCase } from "lucide-react";
 import Link from "next/link";
 export default function Projects() {
   return (
     <div className="space-y-4">
       <div className="space-y-4 grid grid-cols-3 gap-4">
-        {projects.map((project, i) => (
+        {projects.map((project) => (
           <Card key={project.name}>
             <CardHeader>
               <CardTitle>{project.name}</CardTitle>
-              <CardDescription>{project.description}</CardDescription>
+              <CardDescription>
+                <p className="flex gap-1 items-center">
+                  <ToolCase />
+                  {project.tech_stack.map((tech) => tech).join(", ")}
+                </p>
+              </CardDescription>
             </CardHeader>
+
             <CardContent>
-              <p>{project.goal}</p>
+              <p>{project.description}</p>
             </CardContent>
             <CardFooter>
-              {project.link && (
-                <Link href={project.link} target="_blank" className="underline">
-                  Try the App
-                </Link>
-              )}
-              {project.source_code && (
+              {project.links.map((link) => (
                 <Link
-                  href={project.source_code}
+                  key={link.label}
+                  href={link.url}
                   target="_blank"
                   className="underline"
                 >
-                  Source code
+                  {link.label}
                 </Link>
-              )}
+              ))}
             </CardFooter>
           </Card>
         ))}

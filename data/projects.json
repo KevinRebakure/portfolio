@@ -2,24 +2,24 @@
   {
     "name": "understand it.",
     "description": "Using Gemini to translate song lyrics to any language you want.",
-    "goal": "Practice your favorite language by singing along to your favorite songs",
     "features": [],
-    "tech_stack": [
-      "Express.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Gemini AI"
-    ],
-    "link": "https://understand-it-lime.vercel.app/",
-    "source_code": ""
+    "tech_stack": ["Express.js", "React", "TypeScript", "Gemini AI"],
+    "links": [
+      {
+        "label": "Try the app",
+        "url": "https://understand-it-lime.vercel.app/"
+      }
+    ]
   },
   {
     "name": "Store API",
     "description": "Building a REST API for a store with Spring Boot.",
-    "goal": "A REST API for a store.",
-    "link": "",
-    "source_code": "https://github.com/KevinRebakure/store",
+    "links": [
+      {
+        "label": "Source code",
+        "url": "https://github.com/KevinRebakure/store"
+      }
+    ],
     "features": [
       "Auth with Spring Security",
       "Payments processing with Stripe"
