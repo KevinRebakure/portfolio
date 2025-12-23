@@ -17,7 +17,7 @@ export default function Header() {
               {i < links.length - 1 && <span> |</span>}
             </Link>
           ))}
-          <p> | kevinrebakure@gmail.com</p>
+          <span> | kevinrebakure@gmail.com</span>
         </div>
       </div>
 
