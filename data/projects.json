@@ -1,7 +1,7 @@
 [
   {
     "name": "understand it.",
-    "description": "Using Gemini to translate song lyrics to any language you want.",
+    "description": "Practice a new language by singing along to your favorite songs.",
     "features": [],
     "tech_stack": ["Express.js", "React", "TypeScript", "Gemini AI"],
     "links": [
