@@ -63,6 +63,15 @@
     "tags": ["Java", "Spring Boot"]
   },
   {
+    "name": "Claude Code for Professional Developers",
+    "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/#:~:text=Licenses%20%26%20certifications-,Claude%20Code%20for%20Professional%20Developers,-Code%20With%20Mosh",
+    "description": "",
+    "institution_name": "Code With Mosh",
+    "instituation_link": "https://www.linkedin.com/school/codewithmosh/",
+    "type": "Course",
+    "tags": ["React", "Express.js", "TypeScript", "Claude Code", "E2E testing", "Unit testing", "Agent driven development"]
+  },
+  {
     "name": "Ultimate Java Part 1: Fundamentals",
     "certificate_link": "https://www.linkedin.com/in/kevin-rebakure-91063a301/details/certifications/#:~:text=Spring%20Data%20JPA-,Ultimate%20Java%20Part%201%3A%20Fundamentals,-Ultimate%20Java%20Part",
     "description": "Java fundamentals",
