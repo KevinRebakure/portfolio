@@ -1,0 +1,5 @@
+[
+  { "name": "Java", "status": "Currently learning", "started": "2025-10-01T00:00:00Z", "ended": null },
+  { "name": "Kubernetes", "status": "Currently learning", "started": "2026-05-01T00:00:00Z", "ended": null },
+  { "name": "Kafka", "status": "Currently learning", "started": "2026-05-01T00:00:00Z", "ended": null }
+]

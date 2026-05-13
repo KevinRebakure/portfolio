@@ -7,19 +7,26 @@ export default function Skills() {
       </p>
       <p>
         <span className="font-semibold">Frameworks: </span>Spring Boot, Next.js,
-        React, Nest.js, Express.js
+        React, Express.js
       </p>
       <p>
         <span className="font-semibold">Team & DevOps: </span>Docker, Git
       </p>
       <p>
         <span className="font-semibold">Other favorites: </span>
-        Supabase, VS Code, IntelliJ IDEA
+        VS Code, JetBrains IDEs
       </p>
       <p>
         <span className="font-semibold">
-          Can&apos;t imagine working without: 
-        </span> Notion, Spotify
+          Can&apos;t imagine working without:
+        </span>{" "}
+        Notion, Spotify
+      </p>
+      <p>
+        <span className="font-semibold">Got a little rusty on:</span> Nest.js
+      </p>
+      <p>
+        <span className="font-semibold">Had a good time with:</span> Appwrite, Supabase
       </p>
     </div>
   );

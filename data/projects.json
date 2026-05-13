@@ -1,29 +1,18 @@
 [
   {
     "name": "understand it.",
+    "category": "Experimental",
     "description": "Practice a new language by singing along to your favorite songs.",
-    "features": [],
     "tech_stack": ["Express.js", "React", "TypeScript", "Gemini AI"],
-    "links": [
-      {
-        "label": "Try the app",
-        "url": "https://understand-it-lime.vercel.app/"
-      }
-    ]
+    "github_url": null,
+    "app_url": "https://understand-it-lime.vercel.app/"
   },
   {
     "name": "Store API",
+    "category": "Course Project",
     "description": "Building a REST API for a store with Spring Boot.",
-    "links": [
-      {
-        "label": "Source code",
-        "url": "https://github.com/KevinRebakure/store"
-      }
-    ],
-    "features": [
-      "Auth with Spring Security",
-      "Payments processing with Stripe"
-    ],
-    "tech_stack": ["Spring Boot", "Spring Security", "Stripe", "PostgreSQL"]
+    "tech_stack": ["Spring Boot", "Spring Security", "Stripe", "PostgreSQL"],
+    "github_url": "https://github.com/KevinRebakure/store",
+    "app_url": null
   }
 ]

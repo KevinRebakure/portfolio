@@ -4,9 +4,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import Certificates from "./_components/Certificates";
+import CertificatesTable from "./_components/CertificatesTable";
 import Header from "./_components/Header";
-import Projects from "./_components/Projects";
+import LearningTable from "./_components/LearningTable";
+import ProjectsTable from "./_components/ProjectsTable";
 import Skills from "./_components/Skills";
 import certificates from "@/data/certificates.json";
 import projects from "@/data/projects.json";
@@ -31,7 +32,7 @@ export default function Home() {
         <AccordionItem value="learning">
           <AccordionTrigger>Currently learning</AccordionTrigger>
           <AccordionContent>
-            <p>Since October 2025: Java, Systems Design</p>
+            <LearningTable />
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="skills">
@@ -44,7 +45,7 @@ export default function Home() {
         <AccordionItem value="projects">
           <AccordionTrigger>Projects ({projects.length})</AccordionTrigger>
           <AccordionContent>
-            <Projects />
+            <ProjectsTable />
           </AccordionContent>
         </AccordionItem>
 
@@ -53,7 +54,7 @@ export default function Home() {
             Certificates ({certificates.length})
           </AccordionTrigger>
           <AccordionContent>
-            <Certificates />
+            <CertificatesTable />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
