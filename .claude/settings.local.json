@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Remove-Item \"C:\\\\Users\\\\TheGym\\\\Documents\\\\Projects\\\\portfolio\\\\app\\\\_components\\\\Projects.tsx\" -Force)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\TheGym\\\\Documents\\\\Projects\\\\portfolio\\\\app\\\\_components\\\\Certificates.tsx\" -Force)"
+    ]
+  }
+}
