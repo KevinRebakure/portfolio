@@ -5,7 +5,7 @@ export default function Header() {
     <div className="space-y-2">
       <h1 className="text-3xl">Kevin Rebakure</h1>
       <p>
-        Systems Engineer at{" "}
+        Junior Systems Engineer at{" "}
         <Link href="https://github.com/BESTSELLER" target="_blank" className="underline">
           BESTSELLER
         </Link>
