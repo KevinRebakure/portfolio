@@ -9,7 +9,7 @@ type LearningItem = (typeof learning)[number];
 const statuses = Array.from(new Set(learning.map((l) => l.status)));
 
 const STATUS_COLORS: Record<string, string> = {
-  "Currently learning": "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
+  "Experimenting": "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200",
   "Completed": "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
   "On hold": "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200",
 };
