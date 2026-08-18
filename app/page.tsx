@@ -30,7 +30,7 @@ export default function Home() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="learning">
-          <AccordionTrigger>Currently learning</AccordionTrigger>
+          <AccordionTrigger>Exploring</AccordionTrigger>
           <AccordionContent>
             <LearningTable />
           </AccordionContent>
