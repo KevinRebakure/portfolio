@@ -26,6 +26,10 @@ Single-page Next.js 16 portfolio site. The entire UI lives in `app/page.tsx` —
 
 **Path alias** — `@/` maps to the project root (covers `@/components/ui/...` and `@/data/...`).
 
+## Cloud Runs
+
+When running in the cloud and assigned an issue, the title of the PR you create must match the issue title exactly.
+
 ## Content Updates
 
 To add a project, edit `data/projects.json`. The count displayed in the accordion header (`Projects (N)`) is derived automatically from `array.length`.
