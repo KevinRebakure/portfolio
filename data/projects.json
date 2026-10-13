@@ -3,7 +3,7 @@
     "name": "understand it.",
     "category": "Experimental",
     "description": "Practice a new language by singing along to your favorite songs.",
-    "tech_stack": ["Express.js", "React", "TypeScript", "Gemini AI"],
+    "tech_stack": ["TypeScript", "React"],
     "github_url": null,
     "app_url": "https://understand-it-lime.vercel.app/"
   },
@@ -11,7 +11,7 @@
     "name": "Store API",
     "category": "Course Project",
     "description": "Building a REST API for a store with Spring Boot.",
-    "tech_stack": ["Spring Boot", "Spring Security", "Stripe", "PostgreSQL"],
+    "tech_stack": ["Java", "Spring Boot"],
     "github_url": "https://github.com/KevinRebakure/store",
     "app_url": null
   }

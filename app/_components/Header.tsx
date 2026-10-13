@@ -10,6 +10,10 @@ export default function Header() {
           BESTSELLER
         </Link>
       </p>
+      <p>Kigali, Rwanda</p>
+      <p aria-label="Hobbies">
+        🏀 · 🎮 · 🍿 · 🏊 · 🏃‍♂️ · 🛌 · 🥩 · 🍻 · 🎸 · 🚗 · 👨‍💻
+      </p>
     </div>
   );
 }
