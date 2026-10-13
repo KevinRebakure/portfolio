@@ -33,3 +33,5 @@ When running in the cloud and assigned an issue, the title of the PR you create 
 ## Content Updates
 
 To add a project, edit `data/projects.json`. The count displayed in the accordion header (`Projects (N)`) is derived automatically from `array.length`.
+
+When filling in `tech_stack`, list only the primary programming language and the primary framework (if any). Do not list additional tools such as runtimes, libraries, or build tools.
