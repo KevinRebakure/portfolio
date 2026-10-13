@@ -1,46 +1,30 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import Header from "./_components/Header";
-import ProjectsTable from "./_components/ProjectsTable";
-import Skills from "./_components/Skills";
-import projects from "@/data/projects.json";
 import Connect from "./_components/Connect";
+import Skills from "./_components/Skills";
+import ProjectsView from "./_components/ProjectsView";
+import SectionTitle from "./_components/SectionTitle";
 
 export default function Home() {
   return (
-    <div className="p-6 md:p-16 space-y-16">
+    <main className="min-h-screen max-w-[960px] px-[clamp(20px,5vw,64px)] pt-[clamp(32px,7vw,88px)] pb-30">
       <Header />
-      <Accordion
-        type="single"
-        collapsible
-        className="w-full"
-        defaultValue="connect"
-      >
-        <AccordionItem value="connect">
-          <AccordionTrigger>Let&apos;s connect</AccordionTrigger>
-          <AccordionContent>
+      <div className="mt-[72px] flex flex-col gap-14">
+        <section>
+          <SectionTitle index="01">Connect</SectionTitle>
+          <div className="mt-4 md:ml-[38px]">
             <Connect />
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="skills">
-          <AccordionTrigger>Main tools for my daily chores</AccordionTrigger>
-          <AccordionContent>
+          </div>
+        </section>
+        <section>
+          <SectionTitle index="02">Knowledge</SectionTitle>
+          <div className="mt-4 md:ml-[38px]">
             <Skills />
-          </AccordionContent>
-        </AccordionItem>
-
-        <AccordionItem value="projects">
-          <AccordionTrigger>Projects ({projects.length})</AccordionTrigger>
-          <AccordionContent>
-            <ProjectsTable />
-          </AccordionContent>
-        </AccordionItem>
-
-      </Accordion>
-    </div>
+          </div>
+        </section>
+        <section>
+          <ProjectsView />
+        </section>
+      </div>
+    </main>
   );
 }
