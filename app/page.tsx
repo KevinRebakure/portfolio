@@ -6,7 +6,7 @@ import SectionTitle from "./_components/SectionTitle";
 
 export default function Home() {
   return (
-    <main className="min-h-screen max-w-[960px] px-[clamp(20px,5vw,64px)] pt-[clamp(32px,7vw,88px)] pb-30">
+    <main className="mx-auto min-h-screen max-w-[960px] px-[clamp(20px,5vw,64px)] pt-[clamp(32px,7vw,88px)] pb-30">
       <Header />
       <div className="mt-[72px] flex flex-col gap-14">
         <section>
