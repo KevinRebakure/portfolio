@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import projects from "@/data/projects.json";
-import { cn } from "@/lib/utils";
+import { cn, slugify } from "@/lib/utils";
 import Blueprint from "./Blueprint";
 import SectionTitle from "./SectionTitle";
 
@@ -16,7 +17,7 @@ function toggleClass(active: boolean) {
     "font-heading cursor-pointer border px-[14px] py-[7px] text-sm font-semibold leading-tight",
     active
       ? "border-[var(--brand)] bg-[var(--brand)] text-background"
-      : "border-[var(--divider)] hover:bg-foreground/5"
+      : "border-[var(--divider)] hover:bg-foreground/5",
   );
 }
 
@@ -50,7 +51,7 @@ export default function ProjectsView() {
       {view === "grid" ? (
         <div className="mt-5 grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6 md:ml-[38px]">
           {projects.map((p) => {
-            const href = p.app_url ?? p.github_url ?? undefined;
+            const href = `/project/${slugify(p.name)}`;
             return (
               <Blueprint
                 key={p.name}
@@ -58,18 +59,12 @@ export default function ProjectsView() {
               >
                 <span className={tag}>{p.category}</span>
                 <h3 className="font-heading mt-1 text-[30px] font-normal leading-[1.05]">
-                  {href ? (
-                    <a
-                      href={href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="!text-foreground no-underline after:absolute after:inset-0 after:content-['']"
-                    >
-                      {p.name}
-                    </a>
-                  ) : (
-                    p.name
-                  )}
+                  <Link
+                    href={href}
+                    className="!text-foreground no-underline after:absolute after:inset-0 after:content-['']"
+                  >
+                    {p.name}
+                  </Link>
                 </h3>
                 <p className="leading-snug">{p.description}</p>
                 <div className="mt-auto text-sm text-neutral-700">
@@ -82,25 +77,19 @@ export default function ProjectsView() {
       ) : (
         <ul className="mt-5 border-t border-[var(--brand)] md:ml-[38px]">
           {projects.map((p) => {
-            const href = p.app_url ?? p.github_url ?? undefined;
+            const href = `/project/${slugify(p.name)}`;
             return (
               <li
                 key={p.name}
                 className="relative grid grid-cols-1 items-baseline gap-x-6 gap-y-2 border-b border-accent-300 px-2 py-4 transition-colors hover:bg-accent-100 md:grid-cols-[minmax(120px,1fr)_minmax(0,2.4fr)_auto]"
               >
                 <div className="font-medium">
-                  {href ? (
-                    <a
-                      href={href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="!text-foreground no-underline after:absolute after:inset-0 after:content-['']"
-                    >
-                      {p.name}
-                    </a>
-                  ) : (
-                    p.name
-                  )}
+                  <Link
+                    href={href}
+                    className="!text-foreground no-underline after:absolute after:inset-0 after:content-['']"
+                  >
+                    {p.name}
+                  </Link>
                 </div>
                 <div className="text-neutral-700">{p.description}</div>
                 <div className="whitespace-nowrap text-sm">{p.category} →</div>

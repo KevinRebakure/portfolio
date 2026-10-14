@@ -17,8 +17,11 @@ export default function Header() {
         </Link>
       </p>
       <p className="mb-1.5 text-lg">Kigali, Rwanda</p>
-      <p className="text-neutral-700">
-        Basketball · Games · Film · Swimming · Running · Guitar · Cars
+      <p
+        className="text-neutral-700"
+        aria-label="Hobbies: basketball, games, film, swimming, running, guitar, cars"
+      >
+        🏀 · 🎮 · 🎬 · 🏊 · 🏃 · 🎸 · 🚗
       </p>
     </header>
   );
