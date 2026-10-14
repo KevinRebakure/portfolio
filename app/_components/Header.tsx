@@ -21,7 +21,7 @@ export default function Header() {
         className="text-neutral-700"
         aria-label="Hobbies: basketball, games, film, swimming, running, guitar, cars"
       >
-        🏀 · 🎮 · 🎬 · 🏊 · 🏃 · 🎸 · 🚗
+        🏀 · 🎮 · 🍿 · 🏊 · 🏃 · 🎸 · 🚗
       </p>
     </header>
   );
