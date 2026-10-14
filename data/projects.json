@@ -11,7 +11,7 @@
     "name": "BeAware",
     "category": "Dev tool",
     "description": "Don't suddenly be surprised when you find out you just blew $100 in 1 day. With BeAware, you will see it coming. It alerts you on an incremental budget. ex. on every $10 you consume.",
-    "tech_stack": ["TypeScript", "React"],
+    "tech_stack": ["TypeScript", "Ink"],
     "github_url": "https://github.com/KevinRebakure/BeAware",
     "app_url": null
   },
