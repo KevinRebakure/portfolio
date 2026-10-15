@@ -29,10 +29,7 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-accent-100: #eef6ff;
-  --color-accent-300: #b5d9fd;
-  --color-accent-600: #597ea3;
-  --color-accent-700: #416180;
+  --color-neutral-100: #f5f5f8;
   --color-neutral-700: #5d5d60;
   --font-heading: var(--font-barlow-condensed), system-ui, sans-serif;
   --font-sans: var(--font-barlow), system-ui, sans-serif;
@@ -56,7 +53,6 @@
   --background: #f2f2f3;
   --foreground: #1d1f20;
   --brand: #5980a6;
-  --divider: color-mix(in srgb, #1d1f20 16%, transparent);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -127,14 +123,15 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-sans text-[15px] leading-relaxed;
+    @apply bg-background text-foreground font-sans text-base leading-[1.55];
   }
   a {
-    color: var(--color-accent-700);
+    color: var(--foreground);
+    text-decoration: underline;
     text-underline-offset: 3px;
   }
   a:hover {
-    color: var(--color-accent-600);
+    text-decoration-thickness: 2px;
   }
   :focus-visible {
     outline: 2px solid var(--brand);
@@ -144,27 +141,3 @@
     background: color-mix(in srgb, var(--brand) 30%, transparent);
   }
 }
-
-/* Blueprint frame: hairline box with registration marks at the corners */
-.blueprint {
-  position: relative;
-  border: 1px solid var(--brand);
-}
-.blueprint > .corner {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  color: color-mix(in srgb, var(--foreground) 55%, transparent);
-}
-.blueprint > .corner::before,
-.blueprint > .corner::after {
-  content: "";
-  position: absolute;
-  background: currentColor;
-}
-.blueprint > .corner::before { left: 5px; top: 0; width: 1px; height: 100%; }
-.blueprint > .corner::after { top: 5px; left: 0; width: 100%; height: 1px; }
-.blueprint > .corner.tl { top: -6px; left: -6px; }
-.blueprint > .corner.tr { top: -6px; right: -6px; }
-.blueprint > .corner.bl { bottom: -6px; left: -6px; }
-.blueprint > .corner.br { bottom: -6px; right: -6px; }

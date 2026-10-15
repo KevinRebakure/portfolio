@@ -3,20 +3,13 @@ import Link from "next/link";
 
 export default function Connect() {
   return (
-    <div className="flex flex-wrap gap-x-6 gap-y-1.5 text-base">
+    <div className="flex flex-wrap gap-x-6 gap-y-1.5">
       {links.map((link) => (
-        <Link
-          key={link.name}
-          href={link.link}
-          target="_blank"
-          className="underline"
-        >
+        <Link key={link.name} href={link.link} target="_blank">
           {link.name}
         </Link>
       ))}
-      <a href="mailto:kevinrebakure@gmail.com" className="underline">
-        kevinrebakure@gmail.com
-      </a>
+      <a href="mailto:kevinrebakure@gmail.com">kevinrebakure@gmail.com</a>
     </div>
   );
 }

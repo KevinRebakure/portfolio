@@ -6,11 +6,9 @@ export default function SectionTitle({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex items-baseline gap-4 text-base font-medium">
-      <span className="font-heading tracking-[0.1em] text-accent-700">
-        {index}
-      </span>
+    <h2 className="flex items-baseline gap-4 font-sans text-base leading-[1.55] font-medium tracking-normal">
+      <span className="font-heading tracking-[0.1em]">{index}</span>
       {children}
-    </div>
+    </h2>
   );
 }

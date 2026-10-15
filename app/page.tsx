@@ -10,14 +10,14 @@ export default function Home() {
       <Header />
       <div className="mt-[72px] flex flex-col gap-14">
         <section>
-          <SectionTitle index="01">Connect</SectionTitle>
-          <div className="mt-4 md:ml-[38px]">
+          <SectionTitle index="01">Let&apos;s connect</SectionTitle>
+          <div className="mt-4 ml-[38px]">
             <Connect />
           </div>
         </section>
         <section>
           <SectionTitle index="02">Knowledge</SectionTitle>
-          <div className="mt-4 md:ml-[38px]">
+          <div className="mt-5 ml-[38px]">
             <Skills />
           </div>
         </section>
