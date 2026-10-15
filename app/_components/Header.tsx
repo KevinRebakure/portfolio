@@ -12,13 +12,7 @@ export default function Header() {
           BESTSELLER
         </Link>
       </p>
-      <p className="mb-1.5 text-lg">Kigali, Rwanda</p>
-      <p
-        className="text-lg text-neutral-700"
-        aria-label="Hobbies: basketball, games, film, swimming, running, guitar, cars"
-      >
-        🏀 · 🎮 · 🍿 · 🏊 · 🏃 · 🎸 · 🚗
-      </p>
+      <p className="text-lg">Kigali, Rwanda</p>
     </header>
   );
 }
