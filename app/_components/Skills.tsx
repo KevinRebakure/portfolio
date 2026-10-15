@@ -1,5 +1,3 @@
-import Blueprint from "./Blueprint";
-
 const skills = [
   { label: "Languages", value: "Java, TypeScript, JavaScript, Python" },
   { label: "Frameworks", value: "Spring Boot, Next.js, React, Express.js" },
@@ -8,13 +6,16 @@ const skills = [
 
 export default function Skills() {
   return (
-    <Blueprint className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
+    <div className="flex flex-col gap-5 leading-[1.4]">
       {skills.map((skill) => (
-        <div key={skill.label} className="px-6 py-5 leading-normal">
-          <div className="mb-1 text-[13px] text-accent-700">{skill.label}</div>
-          {skill.value}
+        <div
+          key={skill.label}
+          className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,140px),1fr))] gap-x-6 gap-y-1"
+        >
+          <div className="text-lg leading-[1.4] font-medium">{skill.label}</div>
+          <div className="col-span-3">{skill.value}</div>
         </div>
       ))}
-    </Blueprint>
+    </div>
   );
 }
